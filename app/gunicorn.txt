@@ -1,0 +1,12 @@
+pip install gunicorn 
+
+this is to deploy our model
+
+login to heroku : heroku login -i 
+
+to move it to heroku
+heroku create app_name
+heroku git:remote -a flask-pytorch-tutorial-2
+git add .
+git commit -m "message"
+git push heroku master

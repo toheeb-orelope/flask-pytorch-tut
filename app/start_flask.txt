@@ -1,0 +1,16 @@
+# to start flask app, run the following commands in terminal/linux
+# export FLASK_APP=app/main.py
+# export FLASK_ENV=development
+
+# to start flask app in windows powershell, run the following commands
+$env:FLASK_APP = "app/main.py"
+flask run
+
+# to start flask app in windows cmd, run the following commands prompt
+set FLASK_APP=app/main.py
+flask run
+
+
+$env:FLASK_ENV = "development"
+$env:FLASK_APP = "main.py"
+flask run
